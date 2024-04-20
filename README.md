@@ -2,6 +2,23 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
+you need to run backend server first to start the application 
+clone the repo 
+link: https://github.com/zaheershaikh936/zonesso-backend
+
+start the server by command: yarn dev 
+
+copy the IP
+
+to get ip open cmd type: ifconfig
+copy global IP
+
+copy the ip address
+then go into src/api/index.ts file 
+
+find the base url then change the ip address with your ip address
+and start the server.
+
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
